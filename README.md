@@ -6,8 +6,23 @@ Events is an app where the user can add an event that other users can then join.
 
 If registered, the user has a profile page that shows which events they have created and are attending. Users can also leave comments on each individual event.
 
-We used Node.js, MongoDB, Express, AngularJS, JavaScript, SCSS and HTML.
+# Technologies
+
+* Node.js
+* MongoDB
+* Express
+* AngularJS
+* JavaScript
+* SCSS
+* HTML
+* Trello
+
 It is on port 4000.
+
+# API
+
+* Nominatem
+* OpenStreetMap
 
 This app was made in a team by Grant Wilkinson, Shamsher Shamsiddin-Zoda and Femi Coker. We made this app for mobile use primarily.
 
