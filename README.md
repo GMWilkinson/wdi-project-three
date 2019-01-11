@@ -6,39 +6,6 @@ Events is an app where the user can add an event that other users can then join.
 
 If registered, the user has a profile page that shows which events they have created and are attending. Users can also leave comments on each individual event.
 
-# Technologies
-
-* Node.js
-* MongoDB
-* Express
-* AngularJS
-* JavaScript
-* SCSS
-* HTML
-* Trello
-
-It is on port 4000.
-
-# API
-
-* Nominatem
-* OpenStreetMap
-
-This app was made in a team by Grant Wilkinson, Shamsher Shamsiddin-Zoda and Femi Coker. We made this app for mobile use primarily.
-
-# Future Updates
-
-* The app would have a friend feature so that the user that creates an event can choose whether only friends can see it.
-* Styling tidied up
-* Navbar burger should close on scroll
-* The map would be able to give directions from the user's current location
-
-![Events](https://i.imgur.com/iAy79Fn.png)
-
-# Bugs
-
-* Search bar doesn't work
-
 # Code Snippets
 
 This is the back-end function for creating comments.
@@ -84,3 +51,43 @@ function registerCtrl($scope, $state, $auth) {
   };
 }
 ```
+
+# Technologies
+
+* Node.js
+* MongoDB
+* Express
+* AngularJS
+* JavaScript
+* SCSS
+* HTML
+* Trello
+* Insomnia
+
+It is on port 4000.
+
+# API
+
+* Nominatem
+* OpenStreetMap
+
+This app was made in a team by Grant Wilkinson, Shamsher Shamsiddin-Zoda and Femi Coker. We made this app for mobile use primarily.
+
+# Challenges/Learnings
+
+* This was my first GA group project. So this was the first time I had to deal with merge conflicts. By using the amazingly helpful Trello, we managed to keep the conflicts to a minimum by allocating spaces for each other to code in
+* It was interesting to make an app that wouldn't normally interest me personally. I had to think about styling and functionality in the mindset of someone else
+* I was expecting AngularJS to be much less helpful than it is. I found 'ng-if' to be very convenient for checking if a user is logged in.
+
+# Future Updates
+
+* The app would have a friend feature so that the user that creates an event can choose whether only friends can see it.
+* Styling tidied up
+* Nav bar burger should close on scroll
+* The map would be able to give directions from the user's current location
+
+![Events](https://i.imgur.com/iAy79Fn.png)
+
+# Bugs
+
+* Search bar doesn't work
